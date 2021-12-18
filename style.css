@@ -1,0 +1,102 @@
+*{
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.header{
+    width: 100%;
+    background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(253,62,45,1) 100%);
+}
+.foot{
+    width: 190%;
+background: rgb(253,62,45);
+background: linear-gradient(0deg, rgba(253,62,45,1) 0%, rgba(255,255,255,1) 100%);
+}
+.contanier{
+    width: 100%;
+    max-width: 1200px;
+}
+.top_1{
+    width: 100%;
+    height: 100% ;
+    background-color: red;
+}
+.top_1 > ul{
+    display: flex;
+    position: relative;
+}
+.top_1 ul li{
+    display: inline-block;
+    background-color: darkred;
+}
+.top_1 a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    display: block;
+    width: 175px;
+}
+.top_1 a:hover{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+.top_1 ul ul{
+    display: none;
+    position: absolute
+}
+.top_1 ul li:hover > ul{
+    display: block;
+}
+.top_1 ul ul li{
+    width: 175px;
+    display: block;
+    position: relative;
+}
+.top_1 ul ul ul li{
+    position: relative;
+    left: 175px;
+    top: -60px;
+}
+.top_1 ul ul ul ul  ul li{
+    position: relative;
+    left: 175px;
+    top: -60px;
+}
+.text_zag {
+    text-align: center;
+    margin-bottom: 200px;
+}
+.top_2{
+    text-align: center;
+}
+.iccon{
+    display: block;
+}
+.knopka a{
+    text-decoration: none;
+    color: #FFF;
+}
+.knopka{
+    text-decoration: none;
+    color: #FFFFFF;
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    border: 1px solid black;
+    padding: 20px 0px;
+    background: #6E0417;
+    background: -moz-linear-gradient(left, #6E0417 0%, #C90000 51%, #FFFFFF 100%);
+    background: -webkit-linear-gradient(left, #6E0417 0%, #C90000 51%, #FFFFFF 100%);
+    background: linear-gradient(to right, #6E0417 0%, #C90000 51%, #FFFFFF 100%);
+
+    -webkit-box-shadow: 10px 9px 17px 6px #000000; 
+    box-shadow: 10px 9px 17px 6px #000000;
+    transition: all .6s;
+    -webkit-box-shadow: 10px 9px 17px 6px #000000; 
+    box-shadow: 10px 9px 17px 6px #000000;
+}
